@@ -5,6 +5,8 @@ import type {
   TExperience,
   TTestimonial,
   TProject,
+  TEducation,
+  TSocialLink,
 } from "../types";
 
 import {
@@ -17,21 +19,28 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  nextjs,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
+  fastapi,
+  googleCloud,
   docker,
+
   meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  incf,
+  nsut,
+  passbolt,
+
+
+  gitspotlight,
+  calorico,
+  brian,
+
+  linkedin,
+  github,
+
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -42,6 +51,10 @@ export const navLinks: TNavLink[] = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "education",
+    title: "Education",
   },
   {
     id: "contact",
@@ -55,7 +68,7 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Open Source Contributor",
     icon: mobile,
   },
   {
@@ -90,8 +103,8 @@ const technologies: TTechnology[] = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "FastApi",
+    icon: fastapi,
   },
   {
     name: "Tailwind CSS",
@@ -106,74 +119,105 @@ const technologies: TTechnology[] = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Google Cloud",
+    icon: googleCloud,
   },
   {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "passbolt",
+    icon: passbolt,
+  }
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Software Developer Intern",
+    companyName: "Passbolt",
+    icon: passbolt,
+    iconBg: "#1f1f1f",
+    date: "May 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learning and Development: Acquired proficiency in CakePHP, PHPUnit, and Docker, enhancing my ability to develop and test secure, scalable applications",
+      "Unit Testing: Spearheaded the implementation of unit tests for Passbolt, ensuring the reliability and robustness of the application",
+    ],
+    tags: [
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CakePHP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PHPUnit",
+        color: "pink-text-gradient",
+      },
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
+    title: "Software Engineering Fellow",
     companyName: "Meta",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "September 2023 - December 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Empowered Indexers: Integrating Scip-Python and Dotnet Indexer support. Engineered binaries, wrappers, and robust test suites for seamless, reliable integration.",
+      " Enhanced Glass Functionality: Upgraded Glass for Scip-Python and Dotnet Indexers, reinforcing stability through revised schemas and exhaustive tests",
+      "Optimized Documentation: Elevated clarity and usability of Scip-Python and Dotnet Indexer documentation, enhancing Glean.software accessibility",
+
+    ],
+    tags: [
+      {
+        name: "Haskell",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Linux",
+        color: "pink-text-gradient",
+      },
+    ],
+  },
+  {
+    title: "Gooogle Summer of Code Mentee",
+    companyName: "International Neuroinformatics Coordinating Facility",
+    icon: incf,
+    iconBg: "#383E56",
+    date: "May 2023 - November 2023",
+    points: [
+      "Developing VS Code Extension for Brian: Developing a comprehensive VS Code extension for the Brian neural simulator, which included the implementation of key functionalities such as syntax highlighting, syntax checking, and auto-completion, resulting in an enhanced coding experience for users",
+      " Created .brian File Support: Pioneered a brand-new file format, .brian, for defining neural models in Brian and integrated support for creating and editing these files into the Brian neural simulator.",
+    "Language Server Protocol: Defined a Language Server Protocol (LSP) using Python, including support for auto-completion and diagnostic features.",
+    "Contributing to the enhancement of Brian’s ecosystem: Improving Brian’s usability and developer experience by creating a dedicated VS Code extension, empowering users with enhanced editing capabilities",
+    ],
+    tags: [
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Pygls",
+        color: "green-text-gradient",
+      },
+      {
+        name: "VS Code API",
+        color: "pink-text-gradient",
+      },
     ],
   },
 ];
@@ -181,94 +225,135 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    name: "Marcel Stimberg",
+    designation: "Research Engineer",
+    company: "Sorbonne Université, Paris",
+    image: "https://lh3.googleusercontent.com/a-/ALV-UjWsE8bYdgASVWneySHH5IGIL1bGhRRjdo5Pr4dnv38HU1Y=s48-p",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    name: "Don Stewart",
+    designation: "Software Engineer",
+    company: "Meta",
+    image: "https://avatars.githubusercontent.com/u/706040?v=4",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    name: "Gencarlo Fissore",
+    designation: "Software Engineer",
+    company: "Meta",
+    image: "https://avatars.githubusercontent.com/u/5137220?v=4",
+  },
+  {
+    testimonial:
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    name: "Remy Bertot",
+    designation: "CTO & Co-Founder",
+    company: "Passbolt",
+    image: "https://lh3.googleusercontent.com/a-/ALV-UjWhfLChWm8EVO9xnHA4w87b03_6Fycxddd4dJGV4ZyOJbY=s80-p",
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "GitSpotLight",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    "A application that help developers to track their github profile and repositories, and provide insights about their github profile. ",
     tags: [
       {
-        name: "react",
+        name: "React JS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Tailwind CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Github API",
         color: "pink-text-gradient",
       },
+      {
+        name: "Chart JS",
+        color: "green-text-gradient",
+      }
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: gitspotlight,
+    sourceCodeLink: "https://github.com/AbhishekTiwari23/GitSpotLight",
   },
   {
-    name: "Job IT",
+    name: "Calori Co",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      " A health platform for personalised calories management, helping users track their daily intake and meet their calorie requirement",
     tags: [
       {
-        name: "react",
+        name: "FastApi",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Tailwind CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Sqliite",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: calorico,
+    sourceCodeLink: "https://github.com/AbhishekTiwari23/CaloriCo",
   },
   {
-    name: "Trip Guide",
+    name: "Brian VS Code Extension",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "VS Code extension, provides support for .brian file, syntax highlighting, auto-completion and syntax check",
     tags: [
       {
-        name: "nextjs",
+        name: "TypeScript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Pygls",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "VS Code API",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: brian,
+    sourceCodeLink: "https://github.com/brian-team/brian-code-editor",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const educations: TEducation[] = [
+  {
+    title: "Bachelor of Technology",
+    institute_name: "Netaji Subhas University of Technology",
+    icon: nsut,
+    iconBg: "#E6DEDD",
+    date: "Jan 2021 - Present",
+    points: [
+      "Major: Electronics and Communication Engineering",
+      "Minor: Internet of Things",
+    ],
+  },
+];
+
+const socialLinks: TSocialLink = [
+{
+  id: 1,
+  platform: "LinkedIn",
+  url: "https://www.linkedin.com/in/tiwariabhishek23/",
+  icon: linkedin,
+},
+{
+  id: 2,
+  platform: "GitHub",
+  url: "https://github.com/abhishektiwari23",
+  icon: github,
+}
+];
+
+export { services, technologies, experiences, testimonials, projects, educations, socialLinks};

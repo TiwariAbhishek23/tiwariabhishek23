@@ -33,6 +33,7 @@ type TConfig = {
   sections: {
     about: Required<TSection>;
     experience: TSection;
+    education: TSection;
     feedbacks: TSection;
     works: Required<TSection>;
   };
@@ -40,13 +41,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Abhishek Tiwari",
+    fullName: "Abhishek Tiwari",
+    email: "tiwari.abhishektiwari23@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Abhishek Tiwari",
+    p: ["Turning Idea into Reality", "is my passion"],
   },
   contact: {
     p: "Get in touch",
@@ -67,11 +68,7 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I'm a software developer based in India, with a passion to learn and use new technologies to build awesome products. I have experience working with React, Node.js, MongoDB, Firebase, and a few other. I'm looking for opportunities to work in a team.`,
     },
     experience: {
       p: "What I have done so far",
@@ -90,5 +87,9 @@ export const config: TConfig = {
     ability to solve complex problems, work with different technologies,
     and manage projects effectively.`,
     },
+    education: {
+      p: "I am a student by Heart.",
+      h2: "Education.",
   },
+}
 };

@@ -52,6 +52,13 @@ const ExperienceCard: React.FC<TExperience> = (experience) => {
           </li>
         ))}
       </ul>
+      <div className="mt-4 flex flex-wrap gap-2">
+          {experience.tags.map((tag) => (
+            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+              #{tag.name}
+            </p>
+          ))}
+        </div>
     </VerticalTimelineElement>
   );
 };

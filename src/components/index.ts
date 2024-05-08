@@ -10,8 +10,10 @@ import Navbar from "./layout/Navbar";
 import About from "./sections/About";
 import Tech from "./sections/Tech";
 import Experience from "./sections/Experience";
+import Education from "./sections/Education";
 import Works from "./sections/Works";
 import Feedbacks from "./sections/Feedbacks";
+import Footer from "./layout/Footer";
 import Contact from "./sections/Contact";
 import CanvasLoader from "./layout/Loader";
 
@@ -23,6 +25,8 @@ export {
   Experience,
   Works,
   Feedbacks,
+  Education,
+  Footer,
   Contact,
   CanvasLoader,
   EarthCanvas,

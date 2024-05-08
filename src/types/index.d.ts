@@ -9,6 +9,10 @@ export type TExperience = {
   iconBg: string;
   date: string;
   points: string[];
+  tags: {
+    name: string;
+    color: string;
+  }[];
 } & Required<Omit<TCommonProps, "name">>;
 
 export type TTestimonial = {
@@ -27,6 +31,22 @@ export type TProject = {
   image: string;
   sourceCodeLink: string;
 } & Required<Pick<TCommonProps, "name">>;
+
+export type TEducation = {
+  title: string;
+  institute_name: string;
+  iconBg: string;
+  date: string;
+  points: string[];
+  icon: string;
+} & Required<Omit<TCommonProps, "name">>;
+
+export type TSocialLink = {
+  id: number;
+  platform: string;
+  url: string;
+  icon: string;
+}[];
 
 export type TTechnology = Required<Omit<TCommonProps, "title">>;
 
