@@ -5,7 +5,7 @@ import {
   Contact,
   Experience,
   Feedbacks,
-  Hero,
+  // Hero,
   Navbar,
   Tech,
   Works,
