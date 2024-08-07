@@ -1,4 +1,3 @@
-# ![Abhishek Tiwari](https://github.com/TiwariAbhishek23/TiwariAbhishek23/blob/b9450af1d378987a2290c8023397ba4d77da60b3/github.png)  
 ## 💫 Hello Developers, I am Abhishek Tiwari
 
 🧑‍🎓 I am a student by ❤️  
