@@ -1,59 +1,61 @@
-## 💫 Hello Developers, I am Abhishek Tiwari
+# Hi, I'm Abhishek Tiwari
 
-🧑‍🎓 I am a student by ❤️  
-🥅 I am passionate about learning tech, solving problems 🖋️, and contributing to a sustainable future 🌄
+**AI Engineer · Software Engineer**
 
----
+I build AI-powered products and software systems, with a focus on LLM applications, agentic workflows, model training, and full-stack development.
 
-## 💻 Tech Stack:
+- Interested in **AI engineering, LLM systems, and product-focused software engineering**
+- Experience building cross-platform applications and shipping user-facing AI products
+- Based in India
 
-### Languages
-![Languages](https://skillicons.dev/icons?i=c,cpp,php,py,js)
+## Selected Projects
 
-### Tools
-![Tools](https://skillicons.dev/icons?i=github,linux,vscode,git,sqlite,githubactions,docker,gcp)
+### [OpenPCB](https://open-pcb.vercel.app/)
+A browser-based schematic and PCB editor with KiCad-compatible project support, electrical and design-rule checks, manufacturing exports, and an AI assistant that proposes design changes for review.
 
-### Frameworks
-![Framework](https://skillicons.dev/icons?i=nextjs,tailwind,nodejs,fastapi,react)
+**Focus:** TypeScript, Next.js, Supabase, PostgreSQL, AI agents
 
----
+### [Lexa AI](https://lexa-excel.vercel.app/)
+An AI assistant for FP&A workflows in Excel, designed to connect financial workflows with business tools and external integrations.
 
-## 💼 Experience
+**Focus:** Python, FastAPI, OpenAI Agents SDK, Firebase, Firestore
 
-### Back-end Development Intern @ Passbolt SA 🔑 (Remote)  
-**Intern, May 2024 - July 2024**
-- **New Services:** Added three new services: User Delete Service, Transfer Group Manager Service, and Transfer Ownership Service.
-- **Improved Code Quality and Testing:** Refactored code to enhance maintainability and performance. Developed new unit tests and improved existing ones to ensure thorough coverage and high code quality.
-- **Technical Documentation:** Created clear documentation for new and updated test files and services, including risk analysis, user stories, update requirements, and final results.
+### [Text Rhino](https://chromewebstore.google.com/detail/textrhino-type-faster-sma/jnbgonnmgejfmhapijbejookcaloeiei)
+An AI-powered text automation product for generating, refining, and managing content workflows.
 
-### Software Engineering Intern @ Meta (Facebook) Open-Source (Remote)  
-**MLH Fellow, Sep 2023 - Dec 2023**
-- **Integrated SCIP-Python and .NET Indexers:** Engineered binaries, wrappers, and robust test suites for seamless integration.
-- **Upgraded Glass Client:** Improved the Glass client for SCIP-Python and .NET Indexers, ensuring better stability and performance through schema updates and thorough testing.
-- **Enhanced Documentation:** Clarified and improved the documentation for SCIP-Python and .NET Indexers, making Glean.software more accessible.
+**Focus:** Next.js, TypeScript, Firebase, Google Cloud, OpenAI API
 
-### Google Summer of Code Mentee @ INCF, Paris (Remote)  
-**Student Developer, May 2023 - Nov 2023**
-- **Developed VS Code Extension:** Created a comprehensive VS Code extension for the Brian neural simulator, including functionalities like syntax highlighting, syntax checking, and auto-completion, used by around 300 users.
-- **Introduced .brian File Support:** Developed a new file format, .brian, for defining neural models in Brian, and integrated support for creating and editing these files in the simulator.
-- **Implemented Language Server Protocol:** Designed and implemented a Language Server Protocol (LSP) using Python, including support for auto-completion and diagnostic features.
+> Some project source repositories are private; the links above point to available product demos.
 
----
+## Experience
 
-## 📊 GitHub Stats
+- **AI Software Developer — Dwellix AI** · Feb 2025 – Aug 2026  
+  Built AI-powered iOS, macOS, and Android applications; worked on on-device LLM inference, voice experiences, iCloud synchronization, and model training.
 
-![My Stats](https://awesome-github-stats.azurewebsites.net/user-stats/TiwariAbhishek23?cardType=github&theme=github-dark&Text=268EDD&Ring=1BDDA3&Title=8FF670F6)  
-![GitHub Streak](https://streak-stats.demolab.com?user=TiwariAbhishek23&theme=vue-dark&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&fire=DD6A53&ring=DDA463)
+- **Full-Stack Software Developer — Text Blaze (YC)** · Oct 2024 – Jan 2025  
+  Contributed to AI Blaze, including YouTube summarization, vision capabilities, session-based chat storage, UI improvements, and automated tests.
 
----
+- **Backend Development Intern — Passbolt** · May 2024 – Jul 2024
+- **MLH Fellow — Glean (Meta Open Source)** · Sep 2023 – Dec 2023
+- **Google Summer of Code — INCF / Brian Simulator** · May 2023 – Nov 2023
 
-## 🏆 GitHub Trophies
+## Open Source
 
-![](https://github-profile-trophy.vercel.app/?username=TiwariAbhishek23&theme=juicyfresh&no-frame=true&no-bg=false&margin-w=4)
+I have contributed to projects including **Glean**, **Brian Simulator**, and **Mozilla Firefox**.
 
----
+## Technical Areas
 
-## 📄 Resume
+- **Languages:** Python, TypeScript, JavaScript, C++, SQL, Swift
+- **AI / ML:** LLM applications, model fine-tuning, RAG, AI agents, PyTorch
+- **Backend:** FastAPI, Node.js, Express, Firebase, PostgreSQL, MySQL
+- **Frontend & Mobile:** React, Next.js, Tailwind CSS, SwiftUI
+- **Tools & Platforms:** Git, Docker, GitHub, Google Cloud, AWS
 
-🗃️ [View Resume](https://dub.sh/resumeAbhishek)
+## Find Me
 
+- [Portfolio](https://tiwariabhishek23.vercel.app/)
+- [LinkedIn](https://www.linkedin.com/in/tiwariabhishek23/)
+- [LeetCode](https://leetcode.com/TiwariAbhishek23/)
+- [Email](mailto:tiwari.abhishektiwari23@gmail.com)
+
+[View my resume](https://dub.sh/resumeAbhishek)
